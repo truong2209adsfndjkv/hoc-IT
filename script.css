@@ -1,0 +1,10 @@
+button{
+    background-color: blue;
+   color: white;
+   padding: 8px;
+   margin-bottom: 10px
+}
+#sumNum{
+    width: 100px;
+    border: 1px solid black;
+}

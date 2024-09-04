@@ -1,0 +1,49 @@
+.main__head{
+   
+   
+}
+.head__menu{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    width: 100%;
+    height: 30px;
+    border: 2px solid black;
+    margin-bottom: 0;
+}
+.head__img{
+    width: 100%;
+    height: 300px;
+    background-color: brown;
+    border: 2px solid black;
+    margin-top: 0;
+    
+}
+
+.body__title{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: ;
+    width: 100%;
+    height: 20px;
+    background-color: blueviolet;
+}
+.body__element{
+    width: 100%;
+    height: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+}
+.element__vesion1{
+    width: 30%;
+
+}
+.element__vesion2{
+    width: 30%;
+}
+.element__vesion3{
+    width: 30%;
+}
