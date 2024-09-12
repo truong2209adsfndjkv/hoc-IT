@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <h1>Cập nhật bài viết</h1>
+
+    <form id="updateForm">
+        <label for="postId">ID bài viết</label>
+        <input type="number" id="postId" name="postId" placeholder="Nhập ID bài viết" required>
+
+        <label for="title">Tiêu đề</label>
+        <input type="text" id="title" name="title" placeholder="Nhập tiêu đề mới" required>
+
+        <label for="body">Nội dung</label>
+        <textarea id="body" name="body" rows="4" placeholder="Nhập nội dung mới" required></textarea>
+
+        <button type="submit">Update Post</button>
+    </form>
+
+    <div class="message" id="message"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>

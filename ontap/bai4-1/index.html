@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <h1>Xóa bài viết</h1>
+
+    <form id="deleteForm">
+        <label for="postId">ID bài viết cần xóa</label>
+        <input type="number" id="postId" name="postId" placeholder="Nhập ID bài viết" required>
+
+        <button type="submit">Delete Post</button>
+    </form>
+
+    <div class="message" id="message"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>
